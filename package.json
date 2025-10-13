@@ -1,13 +1,16 @@
 {
-	"name": "nxst",
-	"version": "1.0.0",
-	"description": "Ne(x|s)t web project monorepo boilerplate",
-	"keywords": [
-		"nextjs",
-		"nestjs",
-		"nx"
-	],
-	"author": "ellyraad",
-	"license": "MIT",
-	"packageManager": "pnpm@10.13.1"
+  "name": "nxst",
+  "version": "1.0.0",
+  "description": "Ne(x|s)t web project monorepo boilerplate",
+  "keywords": [
+    "nextjs",
+    "nestjs",
+    "nx"
+  ],
+  "author": "ellyraad",
+  "license": "MIT",
+  "packageManager": "pnpm@10.13.1",
+  "devDependencies": {
+    "nx": "21.6.4"
+  }
 }
