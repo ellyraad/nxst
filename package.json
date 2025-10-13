@@ -1,16 +1,30 @@
 {
-  "name": "nxst",
-  "version": "1.0.0",
-  "description": "Ne(x|s)t web project monorepo boilerplate",
-  "keywords": [
-    "nextjs",
-    "nestjs",
-    "nx"
-  ],
-  "author": "ellyraad",
-  "license": "MIT",
-  "packageManager": "pnpm@10.13.1",
-  "devDependencies": {
-    "nx": "21.6.4"
-  }
+	"name": "nxst",
+	"version": "1.0.0",
+	"description": "Ne(x|s)t web project monorepo boilerplate",
+	"keywords": [
+		"nextjs",
+		"nestjs",
+		"nx"
+	],
+	"author": "ellyraad",
+	"license": "MIT",
+	"packageManager": "pnpm@10.13.1",
+	"devDependencies": {
+		"@biomejs/biome": "2.2.0",
+		"@nx/jest": "21.6.4",
+		"@nx/js": "21.6.4",
+		"@nx/plugin": "21.6.4",
+		"@swc-node/register": "~1.9.1",
+		"@swc/cli": "~0.6.0",
+		"@swc/core": "~1.5.7",
+		"@swc/helpers": "~0.5.11",
+		"@types/node": "20.19.9",
+		"nx": "21.6.4",
+		"tslib": "^2.3.0",
+		"typescript": "~5.9.2"
+	},
+	"dependencies": {
+		"@nx/devkit": "21.6.4"
+	}
 }
