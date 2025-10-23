@@ -1,5 +1,5 @@
-import { Button } from "@repo/ui/button";
-import type { Meta, StoryObj } from "@storybook/react-vite";
+import type { Meta, StoryObj } from "@storybook/react";
+import { Button } from "./button";
 
 const meta = {
 	title: "Button",

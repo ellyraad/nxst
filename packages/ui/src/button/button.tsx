@@ -2,14 +2,15 @@
 
 import type { ReactNode } from "react";
 
-interface ButtonProps {
+export const Button = ({
+	children,
+	className,
+}: {
 	children: ReactNode;
 	className?: string;
-}
-
-export const Button = ({ children, className }: ButtonProps) => {
+}) => {
 	return (
-		<button type="button" className={className}>
+		<button type="button" className={`${className} ui:text-5xl`}>
 			{children}
 		</button>
 	);
