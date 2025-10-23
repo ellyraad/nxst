@@ -1,5 +1,6 @@
+import { Button } from "@repo/ui/button";
 import type { JSX } from "react";
 
 export default function Home(): JSX.Element {
-	return <h1>Hello, world!</h1>;
+	return <Button>Hi</Button>;
 }
